@@ -344,6 +344,7 @@ a img.aligncenter {
     border-bottom: 1px solid #efefef;
     padding: 30px 0 25px;
     background-color: #ffffff;
+    min-height: 98px;
 }
 
 .navbar-nav > li > a {
@@ -428,9 +429,13 @@ a img.aligncenter {
     padding: 0 0 0 20px;
     margin: 0;
     letter-spacing: 0;
-    line-height: 1.4;
+    line-height: 1;
     position: absolute;
     white-space: nowrap;
+}
+
+.navbar-brand h3 {
+    padding: 0;
 }
 
 .copyrights .fa-angle-up,
@@ -1424,7 +1429,7 @@ hr.invis {
 .navbar-nav > li:focus a,
 a:hover,
 a:focus {
-    color: #9b72c1 
+    color: #9b72c1
 }
 
 
