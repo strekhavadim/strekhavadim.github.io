@@ -3,14 +3,14 @@
 }
 .site-screenshot .browser-window .top{
     max-width: 947px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     height: 41px;
     background: url('../images/browser.png') no-repeat center bottom / contain;
 }
 .site-screenshot .browser-window .body{
     max-width: 947px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     border: 1px solid #aeaeae;
 }
