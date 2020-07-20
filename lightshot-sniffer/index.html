@@ -29,6 +29,8 @@
 		$('#imgUrl').attr('href', 'https://prnt.sc/' + name).html('https://prnt.sc/' + name);
 		$('#content').html('Loading...');
 		var newImg = new Image();
+		newImg.crossOrigin = "anonymous";
+        newImg.referrerPolicy="origin";
 		newImg.onload = function() {
 			var imgHtml = '<img src="'+this.src+'"/>';
 			$('#content').html(imgHtml);
